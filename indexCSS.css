@@ -1,0 +1,49 @@
+body{
+box-sizing: border-box;
+font-family: "Palatino Linotype",Palatino, serif;
+text-transform: full-width;
+text-shadow: 3px 1px black;
+}
+fieldset{
+margin:40px;
+border-radius: 10px;
+width: 700px;
+}
+label{
+color:#CE3232;
+font-size: 17px;
+text-transform:inherit;
+display:block;
+margin:10px;
+text-shadow: none;
+}
+input{
+display:block;
+margin:10px;
+padding:10px;
+width:500px;
+border-radius: 10px;
+border: 0;
+
+}
+legend{
+font-size:40px;
+border: solid 2px black;
+padding:8px;
+border-radius: 10px;
+
+}
+input[type="text"]:hover{
+border-left: solid blue 4px;
+}
+input[type="password"]:hover{
+border-left: solid blue 4px;
+}
+input[type="number"]:hover{
+border-left: solid blue 4px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover,
+input[type="submit"]:focus,input[type="reset"]:focus{
+background-color:palegreen;
+border-left: solid blue 4px;
+}
